@@ -1,0 +1,2 @@
+suds-jurko==0.6
+urllib3==1.23
