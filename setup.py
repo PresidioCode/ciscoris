@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="ciscoris",
-    version="0.0.4",
+    version="0.0.5",
     author="Jeff Levensailor",
     author_email="jeff@levensailor.com",
     description="Cisco CUCM RIS Library. Simple to use.",
@@ -17,8 +17,10 @@ setup(
     packages=['ciscoris'],
     include_package_data=True,
     install_requires = [
-    'suds-jurko==0.6',
-    'urllib3==1.23'
+    'zeep==3.4.0',
+    'urllib3==1.23',
+    'requests==2.22.0',
+    'six==1.12.0'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
